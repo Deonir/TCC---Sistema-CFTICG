@@ -1,0 +1,120 @@
+
+/* css personalizado */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+.cabecalho-ifc {
+    background: url(../img/fundo_marcadagua.png) no-repeat;
+    background-color: #096318;
+    margin-bottom: 30px;
+}
+
+.cabecalho-ifc img {
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-inverse {
+    background-color: rgba(0,0,0,0.85);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #333;
+    background-color: #d7d7d7;
+}
+
+.bg-section {
+    background-color: #efefef;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.page-header {
+    border-bottom: 1px solid #bbb;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small {
+    font-size: 50%;
+}
+
+.developer {
+        text-align: center;
+}
+
+.btn-sair {
+        margin-top: 15px;
+}
+
+.form-cadastro,
+.form-login {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 6px;
+    background: #eee;
+}
+
+.form-login {
+    max-width: 300px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    color: white;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: white;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+
+@media screen and (min-width: 768px) {
+    .developer {
+        text-align: right;
+    }
+
+}
+

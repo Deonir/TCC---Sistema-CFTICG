@@ -1,0 +1,111 @@
+/*body.alto {
+	background: #000000;
+}
+
+
+body.alto a.blindIcon,
+body.alto header, 
+body.alto main {
+	color: #00FF40;
+}
+
+body.alto form h2 {
+	border-bottom: 1px solid #FFFF00;
+}
+
+body.alto form button,
+body.alto form div input,
+body.alto form div select,
+body.alto form div textarea {
+	width: 100%;
+	font-size: 100%;
+	padding: 1vw;
+	border: 1px solid #FFFF00;
+	background: #000000;
+	color: inherit;
+}
+*/
+
+body.alto,
+body.alto nav,
+body.alto div,
+body.alto select,
+body.alto li,
+body.alto ol,
+body.alto header,
+body.alto footer,
+body.alto section,
+body.alto main,
+body.alto aside,
+body.alto article {
+	background: black !important;
+	color: white !important;
+}
+
+body.alto h1,
+body.alto h2,
+body.alto h3,
+body.alto h4,
+body.alto h5,
+body.alto h6,
+body.alto p,
+body.alto label,
+body.alto form
+body.alto em,
+body.alto cite,
+body.alto q,
+body.alto i,
+body.alto b,
+body.alto u,
+body.alto span {
+	color: white !important;
+	background-color: black;
+}
+body.alto a{
+	/*color: yellow !important;*/
+	background:black !important;
+}
+
+body.alto button,
+body.alto input[type=button],
+body.alto input[type=reset],
+body.alto input[type=submit] {
+	background: black !important;
+	/*color: yellow !important;*/
+	/*border: 1px !important;*/
+}
+body.alto img.on-contrast-force-gray {
+	filter: grayscale(100%) contrast(120%);
+}
+
+body.alto img.on-contrast-force-white {
+	filter: brightness(0) invert(1);
+}
+body.alto input[type=text],
+body.alto input[type=password],
+body.alto input[type=url],
+body.alto input[type=search],
+body.alto input[type=nome],
+body.alto input[type=email],
+body.alto input[type=date],
+body.alto input[type=month],
+body.alto input[type=week],
+body.alto input[type=datetime],
+body.alto input[type=datetime-local],
+body.alto textarea,
+body.alto input[type=number] {
+	background: black !important;
+	border: 1px solid white !important;
+	color: white !important;
+}
+body.alto table,
+body.alto tr,
+body.alto th{
+	background: black !important;
+
+	color: white !important;
+}
+
+
+
+
